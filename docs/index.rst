@@ -539,12 +539,12 @@ Line
 
     End point of line (x, y[, z]) as *tuple*
 
-Point
------
+DxfPoint
+--------
 
-.. class:: Point(Shape)
+.. class:: DxfPoint(Shape)
 
-.. attribute:: Point.point
+.. attribute:: DxfPoint.point
 
     Location of point (x, y[, z]) as *tuple*
 
