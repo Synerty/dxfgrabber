@@ -4,3 +4,4 @@ dxfgrabber.egg-info/
 docs/_build/
 playground/
 stress_test_results.ods
+.idea/workspace.xml
