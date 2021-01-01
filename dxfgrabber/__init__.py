@@ -3,7 +3,7 @@
 # Created: 21.07.2012
 # License: MIT License
 
-version = (0, 8, 4)
+version = (0, 8, 5)
 VERSION = "%d.%d.%d" % version
 
 __author__ = "mozman <mozman@gmx.at>"
@@ -28,6 +28,7 @@ from .const import BYBLOCK, BYLAYER
 import io
 from .tags import dxfinfo
 from .color import aci_to_true_color
+from .drawing import Drawing
 
 
 def read(stream, options=None):
